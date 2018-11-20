@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="SurveyForm.css" />
+</head>
+<body>
+    <div id ="backgroud"></div>
+    <h1 id="title">Survey</h1>
+    <div id ="main_form_container">
+        <p id ="description">Fill out this form</p>
+        <form action="" id ="survey-form">
+        <div id ="input_top">
+            <div class ="input_row_top">
+                <div class="left_row_top">
+                    <label id="name-label" for="name">Name</label>
+                </div>
+                <div class ="right_row_top">
+                    <input id ="name" name="name" type="text" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class ="input_row_top">
+                <div class="left_row_top">
+                    <label id="email-label" for="email">Email</label>
+                </div>
+                <div class ="right_row_top">
+                    <input id ="email" name="email" type="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class ="input_row_top">
+                <div class="left_row_top">
+                    <label id="number-label" for="number">Age</label>
+                </div>
+                <div class ="right_row_top">
+                    <input id ="number" name="number" type="number" placeholder="Enter your age" min ="18" max ="999">
+                </div>
+            </div>
+                <div class ="input_row_top">
+                    <div class="left_row_top">
+                        <label id="dropdown_label" for="dropdown">Dropdown</label>
+                    </div>
+                    <div class ="right_row_top">
+                        <select name="dropdown" id="dropdown">
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                </div>
+        </div>
+        <div id ="input_selectors">
+            <div id = "radio_row">
+                <div class ="left_radio_row">
+                    <label for="radios">Please choose</label>
+                </div>
+                <div class ="right_radio_row">
+                    <ul id ="radio_list">
+                        <li>
+                            <input name ="radioSelect"type="radio" value="r1">RadioOption
+                        </li>
+                        <li>
+                            <input name ="radioSelect"type="radio" value="r2">RadioOption
+                        </li>
+                        <li>
+                            <input name ="radioSelect"type="radio" value="r3">RadioOption
+                        </li>
+                        <li>
+                            <input name ="radioSelect"type="radio" value="r3">RadioOption
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id ="checkbox_row">
+                <div class="left_checkbox_row">
+                    <label for="checkbox">Select all that apply</label>
+                </div>
+                <div class ="right_checkbox_row">
+                    <ul id ="checkbox_list">
+                        <li>
+                            <input value="c1" type="checkbox">Checkbox
+                        </li>
+                        <li>
+                            <input value="c2" type="checkbox">Checkbox
+                        </li>
+                        <li>
+                            <input value="c3" type="checkbox">Checkbox
+                        </li>
+                        <li>
+                            <input value="c4" type="checkbox">Checkbox
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class ="input_row_bottom">
+                <div class="left_row_bottom">
+                    <label id="textarea_label" for="textarea">Please leave a comment based on your experience</label>
+                </div>
+                <div class ="right_row_bottom">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <div class ="input_submit_row">
+                <div class="left_submit_row">
+                    <label id ="submit_label"for="submit"></label>
+                </div>
+                <div class ="right_submit_row">
+                    <input id="submit" type="submit">
+                </div>
+            </div>
+
+
+
+
+
+
+    </div>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

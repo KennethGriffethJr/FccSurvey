@@ -1,0 +1,278 @@
+
+
+
+body {
+    width:1200px;
+    margin:0 auto;
+    text-align:center;
+    background:
+    url("whiteFlower.jpg")
+    center
+    no-repeat
+    ;
+    padding-top:25px;
+    
+    
+}
+
+#title{
+    color:rgb(79, 112, 74);
+    margin:0 auto;
+}
+
+#description{
+    text-align: center;
+    color:rgb(79, 112, 74);
+    font-size:30px;
+    width:60%;
+    display:inline-block;
+    border-bottom:1px solid #9EB99A;
+}
+
+#main_form_container {
+    border-radius:5px;
+    padding-top:20px;
+    background:#efefef;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+
+li {
+    list-style: none;
+}
+
+#input_top{
+    width:80%;
+    margin:0 auto;
+}
+
+.input_row_top {
+    margin-bottom:15px;
+}
+
+.left_row_top{
+    display:inline-block;
+    width:200px;
+    text-align:right;
+    vertical-align: top;
+    font-size:20px;
+    
+}
+.right_row_top{
+    display:inline-block;
+    width:300px;
+    text-align:left;
+    margin-left:15px;
+
+}
+
+.right_row_top input{
+    border:none;
+    font-size:20px;
+    transition: background-color 0.5s ease;
+    background-color:#9EB99A;;
+    border-radius:5px;
+    color:white;
+
+}
+
+.right_row_top input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:grey;
+    font-size:20px;
+  }
+
+.right_row_top input:hover{
+    width:200px;
+    height:25px;
+    background-color:rgb(79, 112, 74);
+}
+
+.right_row_top input:focus{
+    outline:none;
+}
+
+.right_row_top input:hover::-webkit-input-placeholder{
+    color:white;
+}
+
+
+#name{
+    width:200px;
+    height:25px;
+}
+
+#email{
+    width:200px;
+    height:25px;
+}
+
+#number{
+    width:200px;
+    height:25px;
+}
+
+#dropdown{
+    width:200px;
+    height:25px;
+    transition: background-color 0.5s ease;
+    background-color:#9EB99A;;
+    border-radius:5px;
+    color:white;
+
+}
+
+#dropdown:hover{
+    background-color:rgb(79, 112, 74);
+}
+
+#dropdown:focus{
+    outline:none;
+}
+
+
+#input_selectors{
+    width:80%;
+    margin:0 auto;
+}
+
+#radio_row{
+    margin-top:15px;
+}
+
+.left_radio_row{
+    display:inline-block;
+    vertical-align: top;
+    width:200px;
+    text-align:right;
+    font-size:20px;
+}
+
+.right_radio_row{
+    display:inline-block;
+    width:300px;
+    text-align:left;
+    margin-left:15px;
+    font-size:20px;
+}
+
+.right_radio_row input{
+    margin-right:10px;
+}
+
+#radio_list{
+    margin:0;
+    padding:0;
+}
+
+#radio_list li{
+    margin-bottom:5px;
+}
+
+
+#checkbox_row{
+    margin-top:15px;
+}
+
+.left_checkbox_row{
+    display:inline-block;
+    vertical-align: top;
+    width:200px;
+    text-align:right;
+    font-size:20px;
+}
+
+.right_checkbox_row{
+    display:inline-block;
+    width:300px;
+    text-align:left;
+    margin-left:15px;
+    font-size:20px;
+}
+
+.right_checkbox_row input{
+    margin-right:10px;
+}
+
+#checkbox_list {
+    margin:0;
+    padding:0;
+}
+
+#checkbox_list li{
+    margin-bottom:5px;
+}
+
+.input_row_bottom{
+    width:80%;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.left_row_bottom{
+    display:inline-block;
+    vertical-align: top;
+    width:200px;
+    text-align:right;
+    font-size:20px;
+}
+
+.right_row_bottom{
+    display:inline-block;
+    width:300px;
+    text-align:left;
+    margin-left:15px;
+}
+
+#textarea{
+    border-radius:5px;
+    height: 65px; 
+    width: 245px;
+    background:#9EB99A;
+    color:white;
+    font-size:12px;
+}
+#textarea:focus{
+    outline:none;
+}
+
+.input_submit_row{
+    width: 80%;
+    margin:0 auto;
+    margin-top:20px;
+    padding-bottom:50px;
+
+}
+
+.left_submit_row{
+    display:inline-block;
+    width:200px;
+    text-align:right;
+}
+
+.right_submit_row{
+    display:inline-block;
+    width:300px;
+    text-align:left;
+    margin-left:15px;
+}
+
+#submit{
+    background:#9EB99A;
+    height:30px;
+    width:100px;
+    border-radius:10px;
+    transition: .5s;
+    color:black;
+
+}
+#submit:hover{
+    background:rgb(79, 112, 74);
+    height:30px;
+    width:100px;
+    border-radius:10px;
+    transform:scale(1.1);
+    color:white;
+    
+
+}
